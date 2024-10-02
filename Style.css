@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+.Logo {
+    display: flex;
+    font-size: larger;
+}
+
+.Nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+
+}
+
+.Nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.er {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.253);
+    background-color: white;
+    position: fixed;
+    width:100%;
+    
+}
+
+.Nav ul li :hover {
+    font-size: larger;
+    color: blue;
+}
+
+.Logi h1 {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.Logi {
+    padding-top: 100px;
+}
+
+.bg-image {
+
+    background-position: center;
+    background-image: url("Restaurnt.jpg");
+    width: 90%;
+    height: 300px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    margin-right: 350px;
+    border-radius: 3rem;
+    color: white;
+    padding-top: 100px;
+
+
+}
+
+.top {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.bg-image h1 {
+    margin-left: 100px;
+}
+
+.bg-image h2 {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.bg-image button {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.crab-container {
+    margin-left: 85px;
+    /* border-style: solid; */
+    width: 250px;
+    height: fit-content;
+    /* border-radius: 2rem 2rem 0 0 ; */
+    font-size: larger;
+    margin-bottom: 50px;
+    padding: 4px;
+}
+
+.crab-container img {
+    /* border-radius: 1.5rem 1.5rem 0 0; */
+    width: 240px;
+    height: 250px;
+}
+
+.crab-container button {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+
+.top {
+    padding-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.crab-container:hover {
+    border-style: solid;
+}
+
+.footer-container {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 255, 0.089);
+    text-align: center;
+
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    gap: 10px;
+}
+
+@media only screen and (max-width:835px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .bg-image {
+
+        background-position: center;
+        background-image: url("Restaurnt.jpg");
+        width: 90%;
+        height: 300px;
+        margin-top: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 50px;
+        margin-right: 350px;
+        border-radius: 3rem;
+        color: white;
+        padding-top: 100px;
+
+    }
+
+    .top {
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:429px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .bg-image {
+
+        background-position: center;
+        background-image: url("Restaurnt.jpg");
+        width: 90%;
+        height: 300px;
+        margin-top: 25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 50px;
+        margin-right: 350px;
+        border-radius: 3rem;
+        color: white;
+        padding-top: 100px;
+
+    }
+
+    .top {
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+
+    .Nav {
+        display: none;
+    }
+
+    .Logi {
+        /* margin: 10px; */
+        margin-bottom: 1px;
+    }
+
+    .bg-image {
+        background-position: center;
+        background-image: url("Restaurnt.jpg");
+        width: 90%;
+        height: 300px;
+        margin-top: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+        margin-right: 350px;
+        border-radius: 3rem;
+        color: white;
+        padding-top: 100px;
+    }
+
+    .bg-image h1 {
+        margin-left: 30px;
+    }
+
+    .bg-image h2 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .bg-image button {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:394px) {
+
+    .crab-container {
+        margin-left: 60px;
+        border-style: solid;
+        width: 250px;
+        height: fit-content;
+        /* border-radius: 2rem 2rem 0 0 ; */
+        font-size: larger;
+        margin-bottom: 50px;
+        padding: 4px;
+    }
+
+    .top {
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    .social-container {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        gap: 1px;
+    }
+}
